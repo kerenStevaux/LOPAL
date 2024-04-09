@@ -18,7 +18,7 @@ programa {
 
     limpa()
 
-    escreva("A média das três notas é:", media)
+    escreva("A mÃ©dia das trÃªs notas Ã©:", media)
 
     
   }
