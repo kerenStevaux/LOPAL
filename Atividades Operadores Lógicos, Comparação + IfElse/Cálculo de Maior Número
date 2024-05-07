@@ -10,6 +10,10 @@ public class Main {
         System.out.println("Declare o segundo número: ");
         int B = leia.nextInt();
         
+        if(A == B){
+            System.out.println("Os números são iguais!");
+        }
+        
         if(A > B){
             System.out.println(A);
         }
