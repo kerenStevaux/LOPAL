@@ -19,8 +19,11 @@ public class Main {
         else if (nota >= 60 && nota <= 69){
             System.out.println("Sua nota é "+ nota + " e classificação de D");
         }
-        else{
+        else if (nota >=0 && nota <= 59){
             System.out.println("Sua nota é " + nota + " e classificação de F");
             }
+        else{
+            System.out.println("Inválido");
+       }
      }
   }
